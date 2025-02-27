@@ -1,0 +1,6 @@
+#!/bin/bash
+
+javac Schedule.java
+javac ScheduleTester.java
+java -classpath ".:sqlite-jdbc-3.34.0.jar" ScheduleTester
+echo "Test Complete"
